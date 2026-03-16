@@ -1,7 +1,9 @@
 public class Test {
     public static void main(String[] args) {
         System.out.println(StringReplace.replace("javatpoint is a very good website", 'a', 'e'));
+        System.out.println(StringReplace.replace(null, 'a', 'e'));
         System.out.println(StringReplace.replace("my name is khan my name is java", "is","was"));
         System.out.println(StringReplace.replace("hey i'am java", "I'am","was"));
+        System.out.println(StringReplace.replace("hey i'am java", null,"was"));
     }
 }
