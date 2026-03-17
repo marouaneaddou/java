@@ -1,0 +1,4 @@
+3
+0
+Error
+Length of array must be equal to three
